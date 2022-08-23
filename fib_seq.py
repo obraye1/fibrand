@@ -7,8 +7,8 @@ def fibo(n):
     fj = []
     while counter < n:
         fib = old_num + new_num
-        fj = [fib]
         
+        print(fib)
 
         if counter < n:
             old_num = new_num
@@ -17,7 +17,6 @@ def fibo(n):
             counter = counter + 1
 
     print(f'The sum of the first 50 value of a Fibonacci series {sum_fib}')
-    print(fj)
 
 
 
